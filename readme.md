@@ -2,7 +2,7 @@
 
 # LAIES
 
-Open-source code for [Lazy Agents: A New Perspective on Solving Sparse Reward Problem in Multi-agent Reinforcement Learning](https://arxiv.org/abs/2102.03479).
+Open-source code for [Lazy Agents: A New Perspective on Solving Sparse Reward Problem in Multi-agent Reinforcement Learning](https://openreview.net/pdf?id=DRu5BlRqrn).
 
 The paper is  accepted by ICML 2023. Our approach can help both value-based and policy-based baselines (such as QMIX, QPLEX, IPPO, and MAPPO) to avoid lazy agent for improving learning efficiency in challenging sparse reward benchmarks.
 
@@ -93,5 +93,9 @@ bash clean.sh
 # Citation
 
 ```
-
+@article{liu2023lazy,
+  title={Lazy Agents: A New Perspective on Solving Sparse Reward Problem in Multi-agent Reinforcement Learning},
+  author={Liu, Boyin and Pu, Zhiqiang and Pan, Yi and Yi, Jianqiang and Liang, Yanyan and Zhang, Du},
+  year={2023}
+}
 ```
