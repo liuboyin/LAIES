@@ -2,7 +2,7 @@
 
 # LAIES
 
-Open-source code for [Lazy Agents: A New Perspective on Solving Sparse Reward Problem in Multi-agent Reinforcement Learning](https://openreview.net/pdf?id=DRu5BlRqrn).
+Open-source code for [Lazy Agents: A New Perspective on Solving Sparse Reward Problem in Multi-agent Reinforcement Learning](https://proceedings.mlr.press/v202/liu23ac.html).
 
 The paper is  accepted by ICML 2023. Our approach can help both value-based and policy-based baselines (such as QMIX, QPLEX, IPPO, and MAPPO) to avoid lazy agent for improving learning efficiency in challenging sparse reward benchmarks.
 
@@ -77,6 +77,8 @@ They are all located in `src/config`.
 `--config` refers to the config files in `src/config/algs`
 `--env-config` refers to the config files in `src/config/envs`
 
+Our code uses WandB for visualization. Before you run it, please configure [WandB](https://wandb.ai/site).
+
 **Run n parallel experiments**
 
 `xxx_list` is separated by `,`.
@@ -93,9 +95,16 @@ bash clean.sh
 # Citation
 
 ```
-@article{liu2023lazy,
-  title={Lazy Agents: A New Perspective on Solving Sparse Reward Problem in Multi-agent Reinforcement Learning},
-  author={Liu, Boyin and Pu, Zhiqiang and Pan, Yi and Yi, Jianqiang and Liang, Yanyan and Zhang, Du},
-  year={2023}
+
+@InProceedings{pmlr-v202-liu23ac,
+  title = 	 {Lazy Agents: A New Perspective on Solving Sparse Reward Problem in Multi-agent Reinforcement Learning},
+  author =       {Liu, Boyin and Pu, Zhiqiang and Pan, Yi and Yi, Jianqiang and Liang, Yanyan and Zhang, D.},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {21937--21950},
+  year = 	 {2023},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  publisher =    {PMLR},
 }
+
 ```
